@@ -1,0 +1,31 @@
+.logs-con{
+    /* box-shadow: 2px 2px 10px 5px #0804d550,-2px -2px 10px 5px #ddd; */
+    padding: 100px;
+    background-color: #8e8ddb50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 10px 0px #ddd;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .severity-bg-color{
+    background-color: #fff; 
+  }
+  .severity-0 { background-color: #fff; }
+  .severity-11 { background-color: #fbbd08; } /* notice */
+  .severity-18 { background-color: #f2711c; } /* error */
+  .severity-25 { background-color: #00b5ad; } /* info */
+  
+  /* Add other severity colors as necessary */
+  
