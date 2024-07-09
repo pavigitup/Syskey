@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-1{
+    padding-top: 80px;
+  }
+
+  .date-label{
+    border: none !important;
+  }
+.date-con{
+  
+  border: 1px solid #973131;
+  background-color: transparent;
+}

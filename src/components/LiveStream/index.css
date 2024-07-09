@@ -1,0 +1,56 @@
+.live-stream-con{
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.live-stream-container {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .button-fun{
+    width: 30%;
+  }
+
+  
+  .search-container .MuiTextField-root {
+    margin-right: 10px;
+  }
+  
+  .filter-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .table-header .MuiTextField-root {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .MuiTextField-root {
+    min-width: 120px;
+  }
+  

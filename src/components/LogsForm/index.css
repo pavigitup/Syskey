@@ -1,0 +1,73 @@
+.log-form {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-settings h2 {
+    margin-bottom: 20px;
+  }
+  
+  .setting-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .setting {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .setting label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .setting input[type="number"],
+  .setting input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .setting input[type="file"] {
+    display: inline-block;
+    width: calc(100% - 12px);
+    margin-bottom: 10px;
+  }
+  
+  .setting button {
+    margin-right: 10px;
+  }
+  
+  .certificate {
+    margin-top: 10px;
+  }
+  
+  .certificate-status {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  .certificate-status .expired {
+    color: red;
+  }
+  
+  .certificate-status .valid {
+    color: green;
+  }
+  
+  .save-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,33 @@
+.search-container-1 {
+    padding: 20px;
+  
+  }
+  
+  .filter-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container-1 .MuiTextField-root-1 {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .button-container-1 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .results-container-1 {
+    margin-top: 20px;
+  }
+  
+  .search-actions-1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
